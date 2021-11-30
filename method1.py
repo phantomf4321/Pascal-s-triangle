@@ -1,8 +1,7 @@
 def printPascal(n) :
 	for line in range(0, n) :
 		for i in range(0, line + 1) :
-			print(binomialCoeff(line, i),
-				" ", end = "")
+			print(binomialCoeff(line, i)," ", end = "")
 		print()
 	
 def binomialCoeff(n, k) :
