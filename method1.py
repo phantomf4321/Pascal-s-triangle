@@ -3,7 +3,6 @@ def printPascal(n) :
 		for i in range(0, line + 1) :
 			print(binomialCoeff(line, i)," ", end = "")
 		print()
-	
 def binomialCoeff(n, k) :
 	res = 1
 	if (k > n - k) :
