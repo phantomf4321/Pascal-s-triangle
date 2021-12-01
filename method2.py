@@ -11,6 +11,5 @@ def printPascal(n:int):
 								arr[line - 1][i])
 				print(arr[line][i], end = " ")			
 		print("\n", end = "")
-
 n = int(input())
 printPascal(n)
